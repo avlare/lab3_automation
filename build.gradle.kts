@@ -22,7 +22,7 @@ tasks.test {
 // this method will create new file with books if there is no file in that path
 val checkOrCreateBookFile = tasks.register("checkOrCreateBookFile") {
     doLast {
-        val filePath = "app\\src\\main\\resources\\list_books.txt"
+        val filePath = "app/src/main/resources/list_books.txt"
         val file = File(filePath)
         println("Create new: $filePath")
         file.createNewFile()
