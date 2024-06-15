@@ -29,8 +29,8 @@ val checkOrCreateBookFile = tasks.register("checkOrCreateBookFile") {
         val books = listOf(
             "Автор 1, Назва 1, 1997",
             "Автор 2, , 1949",
-            ", , 1960",
-            "Автор 3, , "
+            " , , 1960",
+            "Автор 3, ,"
         )
         file.bufferedWriter().use { writer ->
             books.forEach { book ->
