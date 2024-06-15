@@ -6,10 +6,10 @@ import java.io.IOException;
 import java.util.ArrayList;
 import java.util.List;
 
-public class Library {
+public class LoadBooks {
     private List<Book> books;
 
-    public Library() {
+    public LoadBooks() {
         books = new ArrayList<>();
     }
 

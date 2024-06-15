@@ -20,15 +20,5 @@ tasks.test {
     useJUnitPlatform()
 }
 
-//task 3 - checking if file exists
-// command ./gradlew ifFileExists
-tasks.register("ifFileExists") {
-    doFirst {
-        val filePath = "D:\\java_auto\\Lab_3\\app\\src\\main\\resources\\list_books.txt"
-        if (file(filePath).exists()) {
-            println("this file exists :)")
-        } else {
-            println("this file doesn't exist :(")
-        }
-    }
-}
+
+
